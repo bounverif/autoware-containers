@@ -1,0 +1,11 @@
+---
+- name: Install Runtime Base 
+  hosts: all
+
+  vars:
+    cuda_toolkit_install_packages:
+      - cuda-minimal-build-12-3
+
+  roles:
+    - role: bounverif.ros.cuda_toolkit_install
+
