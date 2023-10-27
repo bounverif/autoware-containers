@@ -9,3 +9,5 @@ collections:
   - name: community.general
   - name: git+https://github.com/bounverif/ansible-collection-ros.git
     type: git
+  - source: ./ansible
+    type: dir
