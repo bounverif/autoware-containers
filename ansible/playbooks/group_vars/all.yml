@@ -1,0 +1,8 @@
+cuda_toolkit_install_packages:
+  - cuda-minimal-build-12-3
+  - libcublas-12-3
+  - libcurand-12-3
+  - libnvinfer8
+  - libnvinfer-plugin8
+  - libnvparsers8
+  - libnvonnxparsers8

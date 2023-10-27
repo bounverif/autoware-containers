@@ -4,10 +4,6 @@
   connection: local
   gather_facts: true
 
-  vars:
-    cuda_toolkit_install_packages:
-      - cuda-minimal-build-12-3
-
   tasks:
     - name: Install collections and roles together
       community.general.ansible_galaxy_install:
