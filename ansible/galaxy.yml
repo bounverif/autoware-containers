@@ -6,5 +6,7 @@ readme: README.md
 repository: 'https://github.com/bounverif/autoware-containers/'
 issues: 'https://github.com/bounverif/autoware-containers/issues'
 homepage: 'https://bounverif.github.io/autoware-containers'
+dependencies:
+  "community.general": "*"
 authors:
   - Doğan Ulus <dogan.ulus@boun.edu.tr>
