@@ -1,0 +1,10 @@
+namespace: bounverif
+name: autoware_containers
+version: 0.1.0
+description: Ansible collection for Autoware containers
+readme: README.md
+repository: 'https://github.com/bounverif/autoware-containers/'
+issues: 'https://github.com/bounverif/autoware-containers/issues'
+homepage: 'https://bounverif.github.io/autoware-containers'
+authors:
+  - Doğan Ulus <dogan.ulus@boun.edu.tr>
